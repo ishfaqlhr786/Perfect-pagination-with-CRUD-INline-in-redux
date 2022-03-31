@@ -10,14 +10,15 @@ import {List} from "./List";
 function App() {
   return (
     <div className="App">
-      <ul>
+      <ul style={{display:"flex",listStyleType:"none"}}>
         <li>
-          <Link to="/list?limit=10&&offset=0">List</Link>
+          <Link to="list/?limit=10&&offset=0">List</Link>
         </li>
       </ul>
      
       <Switch>
-        <Route exact path={"/list"} component={List} />
+      
+        <Route path={"/list"} component={List} />
        
           
         

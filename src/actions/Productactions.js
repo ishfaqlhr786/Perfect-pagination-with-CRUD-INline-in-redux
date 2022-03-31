@@ -4,6 +4,7 @@ import React from 'react'
 const data=[
     {id:1,name:"chair",price:2000},
     {id:2,name:"table",price:2000},
+    {id:2,name:"table bbbb",price:2000},
     {id:3,name:"knif",price:2000},
     {id:4,name:"cubaid",price:2000},
     {id:5,name:"bed" ,price:2000},
@@ -22,6 +23,7 @@ const data=[
     {id:18,name:"knif",price:2000},
     {id:19,name:"cubaid",price:2000},
     {id:20,name:"bed" ,price:2000},
+    {id:20,name:"bedggg" ,price:2000444},
 ]
 export const GetProductList = () => async (dispatch) => {
   const id=2
